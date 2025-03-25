@@ -1,4 +1,4 @@
-base_url = "https://www.ruancomelli.com/"
+base_url = "https://ruancomelli.github.io/"
 author = "Ruan Comelli"
 
 theme = "linkita"
@@ -132,9 +132,9 @@ name = "github"
 url = "https://github.com/ruancomelli"
 [[extra.profiles.ruancomelli.social]]
 name = "home"
-url = "https://ruancomelli.com/"
+url = "https://www.ruancomelli.com/"
 [extra.profiles.ruancomelli.social.urls]
-pt = "https://ruancomelli.com/pt/"
+pt = "https://www.ruancomelli.com/pt/"
 [[extra.profiles.ruancomelli.social]]
 name = "rss"
 url = "$BASE_URL/authors/ruancomelli/atom.xml"
