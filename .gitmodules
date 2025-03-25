@@ -1,3 +1,8 @@
 [submodule "themes/linkita"]
 	path = themes/linkita
 	url = https://github.com/salif/linkita.git
+    branch = linkita
+[submodule "themes/linkita-demo"]
+	path = themes/linkita-demo
+	url = https://github.com/salif/linkita.git
+	branch = demo

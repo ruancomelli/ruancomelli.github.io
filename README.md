@@ -38,9 +38,12 @@ It features a modern, responsive design and showcases my projects, talks, and pr
 
    ```bash
    zola serve
+      # Optionally, specify the interface and port:
+      # --interface <INTERFACE>
+      # --port <PORT>
    ```
 
-3. Visit `http://127.0.0.1:1111` (or the port Zola is running on) in your browser
+3. Open `http://127.0.0.1:1111` (or the port Zola is running on) in your browser
 
 ### Building for Production
 

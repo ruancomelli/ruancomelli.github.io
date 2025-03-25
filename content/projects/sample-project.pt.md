@@ -1,6 +1,6 @@
 +++
 title = "Brag AI"
-description = "A sample project to demonstrate the structure"
+description = "Um projeto de amostra para demonstrar a estrutura"
 date = 2024-03-19
 [taxonomies]
 tags = ["sample", "demo"]
