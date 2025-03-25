@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://www.ruancomelli.com/sitemap.xml
+Sitemap: https://ruancomelli.github.io/sitemap.xml
