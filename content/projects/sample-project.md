@@ -26,5 +26,4 @@ This is a sample project to demonstrate how to structure project pages in this w
 
 ## Links
 
-- [GitHub Repository](https://github.com/yourusername/project)
-- [Live Demo](https://project-demo-url.com)
+- [GitHub Repository](https://github.com/ruancomelli/brag-ai)
