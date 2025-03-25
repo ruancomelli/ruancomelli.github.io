@@ -6,7 +6,6 @@ theme = "linkita"
 default_language = "en"
 minify_html = false
 
-# [languages.en]
 title = "Ruan Comelli"
 description = "Ruan Comelli's personal website"
 build_search_index = true
@@ -17,6 +16,7 @@ taxonomies = [
 	{ name = "tags", feed = true, paginate_by = 5 },
 ]
 
+output_dir = "docs/"
 
 [languages.pt]
 title = "Ruan Comelli"
