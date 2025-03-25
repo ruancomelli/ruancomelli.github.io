@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Ruan Comelli</title>
     <subtitle>Ruan Comelli&#x27;s personal website</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://ruancomelli.github.io/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://ruancomelli.github.io/"/>
+    <link rel="self" type="application/atom+xml" href="https://www.ruancomelli.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.ruancomelli.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2024-03-19T00:00:00+00:00</updated>
-    <id>https://ruancomelli.github.io/atom.xml</id>
+    <id>https://www.ruancomelli.com/atom.xml</id>
     <entry xml:lang="en">
         <title>Hello World</title>
         <published>2024-03-19T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://ruancomelli.github.io/blog/hello-world/"/>
-        <id>https://ruancomelli.github.io/blog/hello-world/</id>
+        <link rel="alternate" type="text/html" href="https://www.ruancomelli.com/blog/hello-world/"/>
+        <id>https://www.ruancomelli.com/blog/hello-world/</id>
         
-        <content type="html" xml:base="https://ruancomelli.github.io/blog/hello-world/">&lt;p&gt;Welcome to my blog! This is my first post using Zola and the Linkita theme.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://www.ruancomelli.com/blog/hello-world/">&lt;p&gt;Welcome to my blog! This is my first post using Zola and the Linkita theme.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;what-to-expect&quot;&gt;What to expect&lt;&#x2F;h2&gt;
 &lt;p&gt;In this blog, I&#x27;ll be writing about:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -50,10 +50,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://ruancomelli.github.io/projects/sample-project/"/>
-        <id>https://ruancomelli.github.io/projects/sample-project/</id>
+        <link rel="alternate" type="text/html" href="https://www.ruancomelli.com/projects/sample-project/"/>
+        <id>https://www.ruancomelli.com/projects/sample-project/</id>
         
-        <content type="html" xml:base="https://ruancomelli.github.io/projects/sample-project/">&lt;p&gt;This is a sample project to demonstrate how to structure project pages in this website.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://www.ruancomelli.com/projects/sample-project/">&lt;p&gt;This is a sample project to demonstrate how to structure project pages in this website.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
 &lt;p&gt;[Project overview here]&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;&#x2F;h2&gt;
