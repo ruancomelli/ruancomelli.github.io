@@ -40,7 +40,7 @@ mermaid = true
 comment = true
 title_separator = " | "
 header_menu_name = "sample_header"
-use_cdn = false
+use_cdn = true
 disable_default_favicon = false
 
 [extra.footer]
