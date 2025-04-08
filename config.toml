@@ -84,14 +84,14 @@ sample_header = [
 	{ url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
 	# { url = "$BASE_URL/archive/", name = "Archive", names_i18n = "common_archive" },
 	{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
-	# { url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
+	{ url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
 	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
 ]
 sample_header_pt = [
 	{ url = "$BASE_URL/projects/", name = "Projetos", names_i18n = "common_projects" },
 	# { url = "$BASE_URL/archive/", name = "Arquivo", names_i18n = "common_archive" },
 	{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
-	# { url = "$BASE_URL/about/", name = "Sobre", names_i18n = "common_about" },
+	{ url = "$BASE_URL/about/", name = "Sobre", names_i18n = "common_about" },
 	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
 ]
 
@@ -103,10 +103,10 @@ avatar_invert = false
 
 [extra.profiles.ruancomelli.languages]
 [extra.profiles.ruancomelli.languages.en]
-bio = "A clean and elegant blog theme for Zola. Linkita is based on Kita and Hugo-Paper and is multilingual and SEO friendly."
+bio = "Software Engineer with a strong focus on AI, code quality, and developer tools. Currently exploring LLM-powered applications and automation. Master's in Mechanical Engineering, self-taught programmer, and open-source enthusiast."
 avatar_alt = "Demo profile avatar."
 [extra.profiles.ruancomelli.languages.pt]
-bio = "Um tema de blog limpo e elegante para Zola. Linkita é baseada em Kita e Hugo-Paper e é multilíngue e SEO-friendly."
+bio = "Engenheiro de Software com foco em IA, qualidade de código e ferramentas para desenvolvedores. Atualmente explorando aplicações baseadas em LLMs e automação. Mestre em Engenharia Mecânica, programador autodidata e entusiasta de código aberto."
 avatar_alt = "Avatar de perfil de demonstração."
 
 # TODO: Add open graph profile?
