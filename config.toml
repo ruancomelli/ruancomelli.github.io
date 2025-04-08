@@ -34,6 +34,12 @@ highlight_code = true
 extra_syntaxes_and_themes = []
 highlight_theme = "dracula"
 
+[link_checker]
+skip_prefixes = [
+	# I don't know why, but my LinkedIn profile URL is flagged as invalid
+	"https://www.linkedin.com/in/ruancomelli/",
+]
+
 [extra]
 math = true
 mermaid = true
