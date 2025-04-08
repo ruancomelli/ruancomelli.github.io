@@ -673,34 +673,19 @@
     "cs": "Menu"
   },
   "footer_powered_by": {
-    "en": "Powered by",
-    "bg": "Осъществено чрез",
-    "eo": "Funkciigita de",
-    "zh": "网站基于",
+    "en": "Powered by Zola",
+    "bg": "Осъществено чрез Зола",
+    "eo": "Funkciigita de Zola",
+    "zh": "",
     "tr": "",
-    "ar": "مُشَغل بواسطة",
-    "ko": "제공됨",
+    "ar": "",
+    "ko": "",
     "ja": "",
-    "fr": "Propulsé par",
-    "es": "Impulsado por",
-    "uwu": "powewed by",
+    "fr": "Propulsé par Zola",
+    "es": "Impulsado por Zola",
+    "uwu": "powewed by zola",
     "gb": "",
-    "cs": "Poháněno pomocí"
-  },
-  "footer_generator_name": {
-    "en": "Zola",
-    "bg": "Зола",
-    "eo": "Zola",
-    "zh": "左拉",
-    "tr": "Zola",
-    "ar": "زولا",
-    "ko": "졸라",
-    "ja": "ゾラ",
-    "fr": "Zola",
-    "es": "Zola",
-    "uwu": "zola",
-    "gb": "Zola",
-    "cs": "Zola"
+    "cs": "Poháněno pomocí Zola"
   },
   "footer_theme_name": {
     "en": "Linkita",
@@ -822,6 +807,21 @@
     "gb": "Max to >>",
     "cs": "Více >>"
   },
+  "hellip": {
+    "en": "…",
+    "bg": "…",
+    "eo": "…",
+    "zh": "…",
+    "tr": "…",
+    "ar": "…",
+    "ko": "…",
+    "ja": "…",
+    "fr": "…",
+    "es": "…",
+    "uwu": "…",
+    "gb": "…",
+    "cs": "…"
+  },
   "error_not_found": {
     "en": "404: Page not found",
     "bg": "404: Страницата не е намерена",
@@ -837,6 +837,22 @@
     "uwu2": "404: P-page nyot found >.<",
     "gb": "404",
     "cs": "404: Stránka nebyla nalezena"
+  },
+  "future_search_input": {
+    "en": "Search this site. Results will load as you type.",
+    "bg": "Търсете в този сайт. Резултатите ще се зареждат, докато пишете.",
+    "eo": "Serĉu ĉi tiun retejon. Rezultoj ŝargiĝos dum vi tajpas.",
+    "zh": "",
+    "tr": "",
+    "ar": "",
+    "ko": "",
+    "ja": "",
+    "fr": "",
+    "es": "",
+    "uwu": "",
+    "uwu2": "",
+    "gb": "",
+    "cs": ""
   },
   "future_back_to_top": {
     "en": "Back to Top",
