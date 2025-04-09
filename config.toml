@@ -53,6 +53,7 @@ disable_default_favicon = false
 since = 2025
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 copyright = "&copy; $YEAR Ruan Comelli &vert; [CC BY-SA 4.0]($LICENSE_URL)"
+site_repository = "https://github.com/ruancomelli/ruancomelli.github.io"
 
 [extra.giscus]
 repo = "ruancomelli/ruancomelli"
