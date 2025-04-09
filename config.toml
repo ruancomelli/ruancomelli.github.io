@@ -89,14 +89,14 @@ header_menu_name = "sample_header_pt"
 sample_header = [
 	{ url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
 	# { url = "$BASE_URL/archive/", name = "Archive", names_i18n = "common_archive" },
-	{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+	# { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
 	{ url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
 	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
 ]
 sample_header_pt = [
 	{ url = "$BASE_URL/projects/", name = "Projetos", names_i18n = "common_projects" },
 	# { url = "$BASE_URL/archive/", name = "Arquivo", names_i18n = "common_archive" },
-	{ url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+	# { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
 	{ url = "$BASE_URL/about/", name = "Sobre", names_i18n = "common_about" },
 	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
 ]
@@ -134,13 +134,17 @@ avatar_alt = "Avatar de perfil de demonstração."
 # pt = { image_alt = "Captura de tela deste site." }
 
 [[extra.profiles.ruancomelli.social]]
+name = "home"
+url = "https://www.ruancomelli.com/"
+urls = { pt = "https://www.ruancomelli.com/pt" }
+[[extra.profiles.ruancomelli.social]]
 name = "github"
 url = "https://github.com/ruancomelli"
 [[extra.profiles.ruancomelli.social]]
-name = "home"
-url = "https://www.ruancomelli.com/"
-[extra.profiles.ruancomelli.social.urls]
-pt = "https://www.ruancomelli.com/pt/"
-[[extra.profiles.ruancomelli.social]]
-name = "rss"
-url = "$BASE_URL/authors/ruancomelli/atom.xml"
+name = "linkedin"
+url = "https://www.linkedin.com/in/ruancomelli/"
+urls = { pt = "https://www.linkedin.com/in/ruancomelli/?locale=pt_BR" }
+
+# [[extra.profiles.ruancomelli.social]]
+# name = "rss"
+# url = "$BASE_URL/authors/ruancomelli/atom.xml"

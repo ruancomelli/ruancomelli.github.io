@@ -1,0 +1,52 @@
+[[project]]
+name = "Brag AI"
+desc = "Generate and maintain a brag document with the help of LLMs"
+tags = [
+	"project",
+	"python",
+	"ai",
+	"github-api",
+	"cli",
+	"documentation",
+	"career-development",
+	"productivity-tools",
+	"brag-document",
+	"achievement-tracking",
+	"developer-tools",
+	"portfolio",
+	"automation",
+	"performance-review",
+	"natural-language-processing",
+	"open-source",
+]
+links = [
+	{ name = "github", url = "https://github.com/ruancomelli/brag-ai" },
+	{ name = "docs", url = "https://www.ruancomelli.com/brag-ai" },
+]
+
+[[project]]
+name = "Boiling Learning"
+desc = "Deep learning models for phase-change quantification and classification "
+tags = [
+	"python",
+	"machine-learning",
+	"deep-neural-networks",
+	"computer-vision",
+	"deep-learning",
+	"tensorflow",
+	"cnn",
+	"convolutional-neural-networks",
+	"heat-transfer",
+	"keras-tensorflow",
+	"condensation",
+	"boiling",
+	"tensorflow2",
+	"phase-change",
+]
+links = [
+	{ name = "github", url = "https://github.com/ruancomelli/boiling-learning" },
+	{ name = "paper", url = "https://doi.org/10.1016/j.applthermaleng.2024.124040" },
+	{ name = "thesis", url = "https://repositorio.ufsc.br/bitstream/handle/123456789/249851/PEMC2305-D.pdf?sequence=1&isAllowed=y" },
+	{ name = "thesis-repository", url = "https://github.com/ruancomelli/masters-thesis" },
+	{ name = "thesis-slides", url = "https://docs.google.com/presentation/d/16p-iAApRbUhYKsxXFcBTb9mXG0LGdIXkJ7l2VzyCzp4/edit?usp=sharing" },
+]
