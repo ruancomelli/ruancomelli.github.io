@@ -1,0 +1,18 @@
+// Custom styles to override theme defaults
+.profile-avatar {
+    width: 200px !important;
+    height: 200px !important;
+    transition: transform 0.3s ease !important;
+
+    &:hover {
+        transform: scale(1.1) !important; // Slightly increase size on hover
+        animation: none !important; // Remove the spin animation
+    }
+}
+
+// Profile section spacing
+.profile-container {
+    .not-prose {
+        margin-right: 3rem !important;
+    }
+} 

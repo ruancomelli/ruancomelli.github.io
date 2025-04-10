@@ -17,6 +17,7 @@ taxonomies = [
 ]
 
 output_dir = "docs/"
+compile_sass = true
 
 [languages.pt]
 title = "Ruan Comelli"
