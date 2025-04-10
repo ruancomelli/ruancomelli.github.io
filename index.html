@@ -23,13 +23,38 @@
   
   <!-- End Head inject -->
   <link rel="preload stylesheet" as="style" href="https://ruancomelli.github.io/main.min.css?h=0745654a511f81d99b7c" />
-  <style>
+	
+
+	
+
+	
+
+	
+
+<style>
   :root {
-    --bg: #f4f4f5; --header: #e4e4e7; color-scheme: light; }
+  	--bg: #f4f4f5;
+  	--header: #e4e4e7;
+  	color-scheme: light;
+  }
+
   :root.dark {
-    --bg: #18181b; --header: #27272a; color-scheme: dark; }
-  </style>
-  <meta name="theme-color" data-light="#e4e4e7" data-dark="#27272a" content="#e4e4e7" />
+  	--bg: #18181b;
+  	--header: #27272a;
+  	color-scheme: dark;
+  }
+</style>
+<meta
+  name="theme-color"
+  data-light="#e4e4e7"
+  data-dark="#27272a"
+  content="#e4e4e7"
+/>
+
+
+<link rel="stylesheet" href="https://ruancomelli.github.io/custom.css" />
+
+
   <link rel="preload" as="image" href="https://ruancomelli.github.io/images/profile-hero.jpg?h=3acb1223d3bce3b06d98" />
   <link rel="preload" as="image" href="https://ruancomelli.github.io/icons/home.svg?h=95f3cff5b954b2546150" />
   <link rel="preload" as="image" href="https://ruancomelli.github.io/icons/github.svg?h=3bf8cceead820aec50d4" />
@@ -39,12 +64,9 @@
   <link rel="icon" type="image/png" href="https://ruancomelli.github.io/android-icon.png?h=8d80ec95446bd2c36826" />
   <script src="https://ruancomelli.github.io/js/linkita.min.js?h=2cfe69bc508021cbd3c5"></script>
   <script src="https://ruancomelli.github.io/js/linkita-search.min.js?h=698547b4b081d012c661"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
-    integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous" />
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
-    integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
-    integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://ruancomelli.github.io/katex/katex.min.css?h=f787891b550d554c214a" />
+  <script defer src="https://ruancomelli.github.io/katex/katex.min.js?h=863811e2baa0849c77bc"></script>
+  <script defer src="https://ruancomelli.github.io/katex/contrib/auto-render.min.js?h=bb53eb953394531aae36"></script>
   <script>document.addEventListener("DOMContentLoaded", window.linkita.initKatex);</script>
   <!-- Begin Head End inject -->
   
@@ -113,20 +135,28 @@
 </div>
 
     
-    <!-- Profile -->
-<div class="mb-16 flex items-start">
+    
+<div class="mb-16 flex items-start profile-container">
   <div
-    class="not-prose mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow dark:bg-white/[15%]">
+    class="not-prose shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow dark:bg-white/[15%]"
+  >
     <img
-      class=" my-0 aspect-square w-16 rounded-full !bg-black/5 hover:animate-spin"
-      src="https://ruancomelli.github.io/images/profile-hero.jpg?h=3acb1223d3bce3b06d98" alt="Demo profile avatar." />
+      class="profile-avatar  my-0 aspect-square rounded-full !bg-black/5"
+      src="https://ruancomelli.github.io/images/profile-hero.jpg?h=3acb1223d3bce3b06d98"
+      
+      alt="Demo profile avatar."
+      
+    />
   </div>
-  <div>
-    <h1 class="mb-2 text-3xl font-bold">Ruan Comelli</h1>
-    <div class="mb-2 break-words">
+
+  <div class="flex flex-col">
+    <h1 class="mb-4 text-3xl font-bold">Ruan Comelli</h1>
+    <div class="mb-4 break-words">
       Software Engineer with a strong focus on AI, code quality, and developer tools. Currently exploring LLM-powered applications and automation. Master's in Mechanical Engineering, self-taught programmer, and open-source enthusiast.
     </div>
-    <nav class="flex justify-start space-x-3 dark:invert">
+    <nav
+      class="flex justify-start space-x-3 dark:invert"
+    >
       <a
         class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
         style="--url: url(https://ruancomelli.github.io/icons/home.svg?h=95f3cff5b954b2546150);"
@@ -134,7 +164,8 @@
         target="_blank"
         rel="me"
         title="home"
-        >home</a>
+        >home</a
+      >
       <a
         class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
         style="--url: url(https://ruancomelli.github.io/icons/github.svg?h=3bf8cceead820aec50d4);"
@@ -142,7 +173,8 @@
         target="_blank"
         rel="me"
         title="github"
-        >github</a>
+        >github</a
+      >
       <a
         class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
         style="--url: url(https://ruancomelli.github.io/icons/linkedin.svg?h=2687ac468d96bd03e748);"
@@ -150,7 +182,8 @@
         target="_blank"
         rel="me"
         title="linkedin"
-        >linkedin</a>
+        >linkedin</a
+      >
     </nav>
   </div>
 </div>
