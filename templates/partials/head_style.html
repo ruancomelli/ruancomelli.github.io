@@ -37,6 +37,7 @@
 {% else %}
 	{% set style_header_dark_color = "#27272a" %}
 {% endif %}
+
 <style>
   :root {
   	--bg: {{ style_bg_color | escape_xml | safe }};
@@ -50,6 +51,7 @@
   	color-scheme: dark;
   }
 </style>
+
 <meta
   name="theme-color"
   data-light="{{ style_header_color | escape_xml | safe }}"
@@ -58,6 +60,6 @@
   content="{{ style_header_color | escape_xml | safe }}"
 />
 
-{# Add our custom SASS styles #}
-<link rel="stylesheet" href="{{ get_url(path='custom.css') | safe }}" />
+{# Add our custom SASS style #}
+<link rel="stylesheet" href="{{ get_url(path='custom-profile.css') | safe }}" />
 {% endblock style %}
