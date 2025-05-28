@@ -4,7 +4,6 @@ author = "Ruan Comelli"
 theme = "linkita"
 
 default_language = "en"
-minify_html = false
 
 title = "Ruan Comelli"
 description = "Ruan Comelli's personal website"
@@ -16,8 +15,9 @@ taxonomies = [
 	{ name = "tags", feed = true, paginate_by = 5 },
 ]
 
-output_dir = "docs/"
 compile_sass = true
+generate_sitemap = true
+generate_robots_txt = true
 
 [languages.pt]
 title = "Ruan Comelli"
@@ -42,6 +42,8 @@ skip_prefixes = [
 ]
 
 [extra]
+use_cdn = true
+
 math = true
 mermaid = true
 comment = true
