@@ -1,3 +1,4 @@
+# Using https://vanjacosic.com/posts/deploy-zola-github-pages/ 
 name: Deploy Zola to GH Pages
 on:
   push:
@@ -17,11 +18,22 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.ref != 'refs/heads/main'
+    env:
+      ZOLA_VERSION: "0.20.0"
     steps:
+      - name: Install Zola
+        run: |
+          set -x
+          wget -O - \
+            "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+          | sudo tar xzf - -C /usr/local/bin
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -34,19 +46,24 @@ jobs:
           OUT_DIR: docs
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_ONLY: true
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Zola
+        run: zola build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
 
-  build-and-deploy:
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-      - name: Build and deploy
-        uses: shalzz/zola-deploy-action@master
-        env:
-          PAGES_BRANCH: gh-pages
-          BUILD_DIR: .
-          OUT_DIR: docs
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
