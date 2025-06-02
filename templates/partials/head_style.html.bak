@@ -1,4 +1,4 @@
-{% import "linkita/templates/macros/icons.html" as m_icons %}
+{% import "linkita/templates/macros/url.html" as m_url %}
 {% import "linkita/templates/macros/i18n.html" as m_i18n %}
 {% block style %}
 {%- if page.extra.style.bg_color is defined %}
