@@ -68,8 +68,8 @@
 
           <a
             class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
-            style="--url: url({{ m_url::social_icon(icon=social.name) }});"
-            href="{{ social_url | replace(from=`$BASE_URL`, to=g_lang_base_url) | escape_xml | safe }}"
+            style="--url: url({{ m_url::social_icon(icon=social.name, prl=false) }});"
+            href="{{ m_url::rel(there=m_url::get(url=social_url), here=g_here, base=g_base) }}"
             target="_blank"
             rel="{% if social.name == `rss` %}alternate{% else %}me{% endif %}"
             title="{{ social_title }}"
