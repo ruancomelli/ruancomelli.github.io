@@ -16,10 +16,12 @@ header_menu = config.extra.menus[config.extra.header_menu_name] %} {%- else %}
 undefined!") }} {%- endif %} {%- elif config.extra.menu %} {%- set header_menu =
 config.extra.menu %} {%- endif %}
 <header
-  class="{% if config.extra.style.header_blur %}blur-header{% else %}bg-[var(--header)]{% endif %} fixed top-0 z-40 mx-auto min-h-[3.25rem] w-full header-icons"
+  class="{% if config.extra.style.header_blur %}blur-header{% else %}bg-[var(--header)]{% endif %} fixed top-0 z-40 mx-auto min-h-[3.25rem] w-full header-icons shadow-sm"
 >
-  <div class="mx-auto w-full max-w-4xl p-2.5 lg:flex lg:justify-between">
-    <div class="flex justify-between">
+  <div
+    class="mx-auto w-full max-w-4xl px-4 py-2 lg:px-2.5 lg:flex lg:justify-between"
+  >
+    <div class="flex justify-between items-center">
       <div class="flex items-center min-h-8">
         {%- for header_button in header_buttons %} {%- if header_button ==
         "site_title" and config.title %}
@@ -93,16 +95,26 @@ config.extra.menu %} {%- endif %}
         role="button"
         accesskey="+"
         tabindex="0"
-        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-        onclick="window.linkita.toggleHeaderMenu();"
-        onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || window.linkita.toggleHeaderMenu() : true;"
-      ></div>
+        class="btn-menu relative z-50 flex h-10 w-10 shrink-0 cursor-pointer flex-col items-center justify-center gap-1.5 lg:hidden"
+        onclick="toggleMobileMenu()"
+        onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || toggleMobileMenu() : true;"
+      >
+        <span
+          class="block h-0.5 w-6 bg-current transition-all duration-300"
+        ></span>
+        <span
+          class="block h-0.5 w-6 bg-current transition-all duration-300"
+        ></span>
+        <span
+          class="block h-0.5 w-6 bg-current transition-all duration-300"
+        ></span>
+      </div>
       {%- endif %}
     </div>
     {%- if header_menu %}
-    <nav class="flex w-full items-center lg:w-auto">
+    <nav class="hidden lg:flex w-full items-center lg:w-auto">
       <menu
-        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0 lg:gap-4"
       >
         {%- for menu in header_menu %}
         <li>
@@ -122,6 +134,35 @@ config.extra.menu %} {%- endif %}
       {% include "injects/header_nav.html" ignore missing %}
       <!-- End Header Nav inject -->
     </nav>
+    <!-- Mobile Menu -->
+    <nav
+      class="lg:hidden w-full bg-[var(--header)] shadow-lg"
+      id="mobile-menu"
+      style="display: none"
+    >
+      <menu class="flex flex-col py-2">
+        {%- for menu in header_menu %}
+        <li>
+          <a
+            class="primary-link block py-3 px-4 text-center text-lg font-medium hover:bg-[var(--hover)] transition-colors"
+            href="{{ m_url::rel(there=m_url::get(url=menu.url), here=g_here, base=g_base) }}"
+            >{% if menu.names[lang] %}{{ menu.names[lang] }}{% elif
+            menu.names_i18n and g_trans_d[menu.names_i18n][g_lang_k] %}{{
+            g_trans_d[menu.names_i18n][g_lang_k] }}{% elif menu.name %}{{
+            menu.name }}{% else %}{{ menu.url | replace(from=`$BASE_URL`, to=``)
+            | escape_xml | safe }}{% endif %}</a
+          >
+        </li>
+        {%- endfor %}
+      </menu>
+    </nav>
     {%- endif %}
   </div>
 </header>
+
+<script>
+  function toggleMobileMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "none" ? "block" : "none";
+  }
+</script>
