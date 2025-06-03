@@ -98,17 +98,9 @@ config.extra.menu %} {%- endif %}
         class="btn-menu relative z-50 flex h-10 w-10 shrink-0 cursor-pointer flex-col items-center justify-center gap-1.5 lg:hidden"
         onclick="toggleMobileMenu()"
         onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || toggleMobileMenu() : true;"
-      >
-        <span
-          class="block h-0.5 w-6 bg-current transition-all duration-300"
-        ></span>
-        <span
-          class="block h-0.5 w-6 bg-current transition-all duration-300"
-        ></span>
-        <span
-          class="block h-0.5 w-6 bg-current transition-all duration-300"
-        ></span>
-      </div>
+        aria-expanded="false"
+        aria-label="{{ m_i18n::tr(key=`act_menu`, lk=g_lang_k, d=g_trans_d) }}"
+      ></div>
       {%- endif %}
     </div>
     {%- if header_menu %}
@@ -162,7 +154,15 @@ config.extra.menu %} {%- endif %}
 
 <script>
   function toggleMobileMenu() {
-    const menu = document.getElementById("mobile-menu");
-    menu.style.display = menu.style.display === "none" ? "block" : "none";
+    // Use the theme's toggle function for the animation
+    window.linkita.toggleHeaderMenu();
+
+    const menuButton = document.querySelector(".btn-menu");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const isOpen = document.documentElement.classList.contains("open");
+
+    // Update ARIA state and menu visibility
+    menuButton.setAttribute("aria-expanded", isOpen);
+    mobileMenu.style.display = isOpen ? "block" : "none";
   }
 </script>

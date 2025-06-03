@@ -1,20 +1,4 @@
-// Custom styles to override theme defaults
-.profile-container {
-    .not-prose {
-        img.profile-avatar {
-            width: 200px !important;
-            height: 200px !important;
-            transition: transform 0.3s ease !important;
-            
-            @media (max-width: 640px) {
-                width: 150px !important;
-                height: 150px !important;
-            }
-        }
-    }
-}
-
-// Profile section spacing
+// Profile section spacing and responsive layout
 .profile-container {
     .not-prose {
         margin-right: 3rem !important;
