@@ -1,4 +1,12 @@
-<!-- Header -->
+<!-- 
+  Custom header template that differs from the theme's version in several ways:
+  1. Added shadow-sm class to the header for subtle shadow effect
+  2. Modified padding classes (px-4 py-2 lg:px-2.5) for better spacing
+  3. Enhanced mobile menu button with larger size (h-10 w-10) and better spacing (gap-1.5)
+  4. Added custom mobile menu toggle function with ARIA support
+  5. Improved mobile menu styling with hover effects and transitions
+  6. Added custom header nav inject point for additional navigation items
+-->
 {%- if config.extra.languages[lang].header_buttons is defined %} {%- set
 header_buttons = config.extra.languages[lang].header_buttons %} {%- elif
 config.extra.header_buttons is defined %} {%- set header_buttons =

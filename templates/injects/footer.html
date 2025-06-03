@@ -1,6 +1,13 @@
 <!--
 A footer partial that gets injected into the footer.
 Check themes/linkita/templates/partials/footer.html.
+
+  Custom footer inject template that adds:
+  1. GitHub repository link with icon
+  2. Custom styling for the repository link with flex layout
+  3. Dark mode support for the GitHub icon
+  4. Responsive centering of the repository link
+  5. Custom title and alt text for accessibility
 -->
 
 {%- if config.extra.footer.site_repository %}

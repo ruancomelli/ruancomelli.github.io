@@ -1,3 +1,10 @@
+<!-- 
+  Custom head_style template that differs from the theme's version in several ways:
+  1. Added custom CSS imports for profile avatar, layout and mobile menu styling
+  2. Improved theme-color meta tag formatting for better readability
+  3. Added block style tag for template inheritance
+  4. Added custom SASS stylesheets for enhanced styling
+-->
 {% import "linkita/templates/macros/url.html" as m_url %} {% import
 "linkita/templates/macros/i18n.html" as m_i18n %} {% block style %} {%- if
 page.extra.style.bg_color is defined %} {% set style_bg_color =
