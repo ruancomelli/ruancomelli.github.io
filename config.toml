@@ -54,6 +54,8 @@ math = true
 mermaid = true
 comment = true
 
+favicon = "images/favicon.ico"
+
 # display both the created and the updated dates
 post_listing_date = "both"
 
@@ -91,23 +93,6 @@ show_remote_source = true
 # theme = "dark"
 # lang = "en"
 # loading = "lazy"
-
-# [extra.languages]
-
-# [extra.languages.en]
-# locale = "en_US"
-# date_format = "%F"
-# date_format_archive = "%Y-%m-%d"
-# taxonomy_list_description = "A map of all $NAME on this site. Start exploring!"
-# taxonomy_single_description = "Browse articles related to $NAME. Start exploring!"
-
-# [extra.languages.pt]
-# locale = "pt_BR"
-# date_format = "%F"
-# date_format_archive = "%Y-%m-%d"
-# taxonomy_list_description = "Veja todos os $NAME neste site!"
-# taxonomy_single_description = "Lista de páginas relacionadas com $NAME."
-# header_menu_name = "sample_header_pt"
 
 # [extra.menus]
 # sample_header = [
