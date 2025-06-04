@@ -11,8 +11,9 @@ theme = "tabi"
 
 build_search_index = true
 
-generate_feeds = true
-feed_filenames = ["atom.xml"]
+# TODO: add RSS feed
+# generate_feeds = true
+# feed_filenames = ["atom.xml"]
 taxonomies = [
     { name = "authors", feed = true, paginate_by = 5 },
     { name = "tags", feed = true, paginate_by = 5 },
@@ -28,14 +29,16 @@ default_language = "en"
 title = "/home/ruancomelli"
 description = "Website pessoal de Ruan Comelli"
 build_search_index = true
-generate_feeds = true
-feed_filenames = ["atom.xml"]
+# TODO: add RSS feed
+# generate_feeds = true
+# feed_filenames = ["atom.xml"]
 taxonomies = [
     { name = "authors", feed = true, paginate_by = 5 },
     { name = "tags", feed = true, paginate_by = 5 },
 ]
 
 [markdown]
+bottom_footnotes = true
 highlight_code = true
 highlight_theme = "dracula"
 # extra_syntaxes_and_themes = []
@@ -50,15 +53,18 @@ skip_prefixes = [
 [extra]
 use_cdn = true
 
-math = true
-mermaid = true
 comment = true
 
 favicon = "images/favicon.ico"
 
+# See https://welpo.github.io/tabi/blog/mastering-tabi-settings/#social-media-cards
 # Path to the fallback image for social media cards (the preview image shown when sharing a link on WhatsApp, LinkedIn…).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://github.com/welpo/tabi/pull/128
+# TODO: automate link preview image generation with https://osc.garden/blog/automating-social-media-cards-zola/
 social_media_card = "images/profile-hero.jpg"
+
+# TODO: set this up when I have a Mastodon account - see https://welpo.github.io/tabi/blog/mastering-tabi-settings/#fediverse-creator
+# fediverse_creator = { handle = "username", domain = "example.com" }
 
 # display both the created and the updated dates
 post_listing_date = "both"
@@ -78,13 +84,72 @@ remote_repository_branch = "main"
 show_remote_changes = true
 show_remote_source = true
 
+# ===============================
+# Navigation
+# https://welpo.github.io/tabi/blog/mastering-tabi-settings/#navigation
+# ===============================
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
+]
+quick_navigation_buttons = true
+toc = true
+show_previous_next_article_links = true
+invert_previous_next_article_links = true
+
+# ===============================
+# Usability
+# https://welpo.github.io/tabi/blog/mastering-tabi-settings/#usability
+# ===============================
+copy_button = true
+code_block_name_links = true
+katex = true
+mermaid = true
+
+# ===============================
+# Footer
+# https://welpo.github.io/tabi/blog/mastering-tabi-settings/#footer
+# ===============================
+socials = [
+    { name = "github", url = "https://github.com/ruancomelli/", icon = "github" },
+    { name = "instagram", url = "https://instagram.com/ruancomelli", icon = "instagram" },
+    { name = "youtube", url = "https://youtube.com/@ruancomelli", icon = "youtube" },
+    { name = "spotify", url = "https://open.spotify.com/user/ruancomelli", icon = "spotify" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/ruancomelli/", icon = "linkedin" },
+]
+# TODO: add RSS feed icon
+# feed_icon = true
+footer_menu = [
+    # { url = "about", name = "about", trailing_slash = true },
+    # { url = "privacy", name = "privacy", trailing_slash = true },
+    { url = "sitemap.xml", name = "Sitemap", trailing_slash = false },
+    # { url = "https://example.com", name = "external link", trailing_slash = true },
+]
+copyright = "© $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+copyright_translations.pt = "© $CURRENT_YEAR $AUTHOR $SEPARATOR A menos que se indique o contrário, o conteúdo deste site está disponível sob a licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+
+# ===============================
+# Metadata
+# https://welpo.github.io/tabi/blog/mastering-tabi-settings/#metadata
+# ===============================
+show_author = true
+show_reading_time = true
+show_date = true
+
+# TODO: add a footer with a copyright and a license
 # [extra.footer]
 # since = 2025
 # license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
 # copyright = "&copy; $YEAR Ruan Comelli &vert; [CC BY-SA 4.0]($LICENSE_URL)"
 # site_repository = "https://github.com/ruancomelli/ruancomelli.github.io"
 
+# TODO: enable Giscus
+# See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#adding-comments
 # [extra.giscus]
+# enabled_for_all_posts = true
 # repo = "ruancomelli/ruancomelli"
 # repo_id = "R_kgDOOGVRhA"
 # category = "Website comments"
