@@ -1,44 +1,50 @@
+# Configuration for the website
+
 base_url = "https://www.ruancomelli.com/"
+title = "/home/ruancomelli"
+description = "Ruan Comelli's personal website"
 author = "Ruan Comelli"
 
-theme = "linkita"
+# See https://welpo.github.io/tabi/blog/mastering-tabi-settings/
+# for a complete documentation for the tabi theme
+theme = "tabi"
 
-default_language = "en"
-
-title = "Ruan Comelli"
-description = "Ruan Comelli's personal website"
 build_search_index = true
+
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 taxonomies = [
-	{ name = "authors", feed = true, paginate_by = 5 },
-	{ name = "tags", feed = true, paginate_by = 5 },
+    { name = "authors", feed = true, paginate_by = 5 },
+    { name = "tags", feed = true, paginate_by = 5 },
 ]
 
 compile_sass = true
 generate_sitemap = true
 generate_robots_txt = true
 
+default_language = "en"
+
 [languages.pt]
-title = "Ruan Comelli"
+title = "/home/ruancomelli"
 description = "Website pessoal de Ruan Comelli"
 build_search_index = true
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 taxonomies = [
-	{ name = "authors", feed = true, paginate_by = 5 },
-	{ name = "tags", feed = true, paginate_by = 5 },
+    { name = "authors", feed = true, paginate_by = 5 },
+    { name = "tags", feed = true, paginate_by = 5 },
 ]
 
 [markdown]
 highlight_code = true
-extra_syntaxes_and_themes = []
 highlight_theme = "dracula"
+# extra_syntaxes_and_themes = []
+external_links_class = "external"
 
 [link_checker]
 skip_prefixes = [
-	# I don't know why, but my LinkedIn profile URL is flagged as invalid
-	"https://www.linkedin.com/in/ruancomelli/",
+    # I don't know why, but my LinkedIn profile URL is flagged as invalid
+    "https://www.linkedin.com/in/ruancomelli/",
 ]
 
 [extra]
@@ -47,76 +53,91 @@ use_cdn = true
 math = true
 mermaid = true
 comment = true
-title_separator = " | "
-header_menu_name = "sample_header"
-disable_default_favicon = false
 
-[extra.footer]
-since = 2025
-license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
-copyright = "&copy; $YEAR Ruan Comelli &vert; [CC BY-SA 4.0]($LICENSE_URL)"
-site_repository = "https://github.com/ruancomelli/ruancomelli.github.io"
+# display both the created and the updated dates
+post_listing_date = "both"
 
-[extra.giscus]
-repo = "ruancomelli/ruancomelli"
-repo_id = "R_kgDOOGVRhA"
-category = "Website comments"
-category_id = "DIC_kwDOOGVRhM4Cochm"
-mapping = "pathname"
-strict = 1
-reactions_enabled = 1
-emit_metadata = 1
-input_position = "bottom"
-theme = "dark"
-lang = "en"
-loading = "lazy"
+# Projects
+projects_path = "projects/_index.md"
+# max_projects = 5
+# show_projects_first = true
 
-[extra.languages]
+# the color theme
+skin = "blue"
 
-[extra.languages.en]
-locale = "en_US"
-date_format = "%F"
-date_format_archive = "%Y-%m-%d"
-taxonomy_list_description = "A map of all $NAME on this site. Start exploring!"
-taxonomy_single_description = "Browse articles related to $NAME. Start exploring!"
+# Website source code
+remote_repository_url = "https://github.com/ruancomelli/ruancomelli.github.io"
+remote_repository_git_platform = "auto"
+remote_repository_branch = "main"
+show_remote_changes = true
+show_remote_source = true
 
-[extra.languages.pt]
-locale = "pt_BR"
-date_format = "%F"
-date_format_archive = "%Y-%m-%d"
-taxonomy_list_description = "Veja todos os $NAME neste site!"
-taxonomy_single_description = "Lista de páginas relacionadas com $NAME."
-header_menu_name = "sample_header_pt"
+# [extra.footer]
+# since = 2025
+# license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+# copyright = "&copy; $YEAR Ruan Comelli &vert; [CC BY-SA 4.0]($LICENSE_URL)"
+# site_repository = "https://github.com/ruancomelli/ruancomelli.github.io"
 
-[extra.menus]
-sample_header = [
-	{ url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
-	# { url = "$BASE_URL/archive/", name = "Archive", names_i18n = "common_archive" },
-	# { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
-	{ url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
-	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
-]
-sample_header_pt = [
-	{ url = "$BASE_URL/projects/", name = "Projetos", names_i18n = "common_projects" },
-	# { url = "$BASE_URL/archive/", name = "Arquivo", names_i18n = "common_archive" },
-	# { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
-	{ url = "$BASE_URL/about/", name = "Sobre", names_i18n = "common_about" },
-	# { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
-]
+# [extra.giscus]
+# repo = "ruancomelli/ruancomelli"
+# repo_id = "R_kgDOOGVRhA"
+# category = "Website comments"
+# category_id = "DIC_kwDOOGVRhM4Cochm"
+# mapping = "pathname"
+# strict = 1
+# reactions_enabled = 1
+# emit_metadata = 1
+# input_position = "bottom"
+# theme = "dark"
+# lang = "en"
+# loading = "lazy"
 
-[extra.profiles]
-[extra.profiles.ruancomelli]
-name = "Ruan Comelli"
-avatar_url = "images/profile-hero.jpg"
-avatar_invert = false
+# [extra.languages]
 
-[extra.profiles.ruancomelli.languages]
-[extra.profiles.ruancomelli.languages.en]
-bio = "Software Engineer with a strong focus on AI, code quality, and developer tools. Currently exploring LLM-powered applications and automation. Master's in Mechanical Engineering, self-taught programmer, and open-source enthusiast."
-avatar_alt = "Demo profile avatar."
-[extra.profiles.ruancomelli.languages.pt]
-bio = "Engenheiro de Software com foco em IA, qualidade de código e ferramentas para desenvolvedores. Atualmente explorando aplicações baseadas em LLMs e automação. Mestre em Engenharia Mecânica, programador autodidata e entusiasta de código aberto."
-avatar_alt = "Avatar de perfil de demonstração."
+# [extra.languages.en]
+# locale = "en_US"
+# date_format = "%F"
+# date_format_archive = "%Y-%m-%d"
+# taxonomy_list_description = "A map of all $NAME on this site. Start exploring!"
+# taxonomy_single_description = "Browse articles related to $NAME. Start exploring!"
+
+# [extra.languages.pt]
+# locale = "pt_BR"
+# date_format = "%F"
+# date_format_archive = "%Y-%m-%d"
+# taxonomy_list_description = "Veja todos os $NAME neste site!"
+# taxonomy_single_description = "Lista de páginas relacionadas com $NAME."
+# header_menu_name = "sample_header_pt"
+
+# [extra.menus]
+# sample_header = [
+#     { url = "$BASE_URL/projects/", name = "Projects", names_i18n = "common_projects" },
+#     # { url = "$BASE_URL/archive/", name = "Archive", names_i18n = "common_archive" },
+#     # { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+#     { url = "$BASE_URL/about/", name = "About", names_i18n = "common_about" },
+#     # { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
+# ]
+# sample_header_pt = [
+#     { url = "$BASE_URL/projects/", name = "Projetos", names_i18n = "common_projects" },
+#     # { url = "$BASE_URL/archive/", name = "Arquivo", names_i18n = "common_archive" },
+#     # { url = "$BASE_URL/tags/", name = "Tags", names_i18n = "common_tags" },
+#     { url = "$BASE_URL/about/", name = "Sobre", names_i18n = "common_about" },
+#     # { url = "$BASE_URL/blog/", name = "Blog", names_i18n = "common_blog" },
+# ]
+
+# [extra.profiles]
+# [extra.profiles.ruancomelli]
+# name = "Ruan Comelli"
+# avatar_url = "images/profile-hero.jpg"
+# avatar_invert = false
+
+# [extra.profiles.ruancomelli.languages]
+# [extra.profiles.ruancomelli.languages.en]
+# bio = "Software Engineer with a strong focus on AI, code quality, and developer tools. Currently exploring LLM-powered applications and automation. Master's in Mechanical Engineering, self-taught programmer, and open-source enthusiast."
+# avatar_alt = "Demo profile avatar."
+# [extra.profiles.ruancomelli.languages.pt]
+# bio = "Engenheiro de Software com foco em IA, qualidade de código e ferramentas para desenvolvedores. Atualmente explorando aplicações baseadas em LLMs e automação. Mestre em Engenharia Mecânica, programador autodidata e entusiasta de código aberto."
+# avatar_alt = "Avatar de perfil de demonstração."
 
 # TODO: Add open graph profile?
 # [extra.profiles.ruancomelli.open_graph]
@@ -136,17 +157,17 @@ avatar_alt = "Avatar de perfil de demonstração."
 # en = { image_alt = "Screenshot of this website." }
 # pt = { image_alt = "Captura de tela deste site." }
 
-[[extra.profiles.ruancomelli.social]]
-name = "home"
-url = "https://www.ruancomelli.com/"
-urls = { pt = "https://www.ruancomelli.com/pt" }
-[[extra.profiles.ruancomelli.social]]
-name = "github"
-url = "https://github.com/ruancomelli"
-[[extra.profiles.ruancomelli.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/ruancomelli/"
-urls = { pt = "https://www.linkedin.com/in/ruancomelli/?locale=pt_BR" }
+# [[extra.profiles.ruancomelli.social]]
+# name = "home"
+# url = "https://www.ruancomelli.com/"
+# urls = { pt = "https://www.ruancomelli.com/pt" }
+# [[extra.profiles.ruancomelli.social]]
+# name = "github"
+# url = "https://github.com/ruancomelli"
+# [[extra.profiles.ruancomelli.social]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/ruancomelli/"
+# urls = { pt = "https://www.linkedin.com/in/ruancomelli/?locale=pt_BR" }
 
 # [[extra.profiles.ruancomelli.social]]
 # name = "rss"
