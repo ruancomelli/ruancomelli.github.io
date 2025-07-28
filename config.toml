@@ -15,8 +15,8 @@ build_search_index = true
 # generate_feeds = true
 # feed_filenames = ["atom.xml"]
 taxonomies = [
-    { name = "authors", feed = true, paginate_by = 5 },
-    { name = "tags", feed = true, paginate_by = 5 },
+    { name = "authors", feed = false, paginate_by = 5 },
+    { name = "tags", feed = false, paginate_by = 5 },
 ]
 
 compile_sass = true
@@ -33,8 +33,8 @@ build_search_index = true
 # generate_feeds = true
 # feed_filenames = ["atom.xml"]
 taxonomies = [
-    { name = "authors", feed = true, paginate_by = 5 },
-    { name = "tags", feed = true, paginate_by = 5 },
+    { name = "authors", feed = false, paginate_by = 5 },
+    { name = "tags", feed = false, paginate_by = 5 },
 ]
 
 [markdown]
