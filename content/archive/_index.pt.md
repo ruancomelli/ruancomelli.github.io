@@ -3,9 +3,9 @@ title = "Arquivo"
 template = "archive.html"
 
 [extra]
-# TODO: add sections here, like "blog/" and "notes/"
-# section_path = [
-# 	"blog/",
-# 	"projects/",
-# ]
+# Include both blog and notes in the archive
+section_path = [
+	"blog/",
+	"notes/",
+]
 +++
