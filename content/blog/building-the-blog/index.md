@@ -12,3 +12,9 @@ quick_navigation_buttons = true
 toc = true
 # social_media_card = "social_cards/blog_comments.jpg"
 +++
+
+Hello again!
+
+
+
+![Illustration of me writing in a diary](images/building-the-blog-hero.webp)
