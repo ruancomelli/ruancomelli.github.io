@@ -1,12 +1,12 @@
 +++
 paginate_by = 10
-title = "Notes"
+title = "Bits"
 sort_by = "date"
 insert_anchor_links = "left"
 
 [extra]
 show_reading_time = false
-# social_media_card = "notes.jpg"
+# social_media_card = "bits.jpg"
 +++
 
 A stream of quick thoughts, learnings, and observations. The unpolished, unfiltered side of my thinking.

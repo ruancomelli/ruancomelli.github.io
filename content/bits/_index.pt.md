@@ -1,12 +1,12 @@
 +++
 paginate_by = 10
-title = "Notas"
+title = "Bits"
 sort_by = "date"
 insert_anchor_links = "left"
 
 [extra]
 show_reading_time = false
-# social_media_card = "notes.jpg"
+# social_media_card = "bits.jpg"
 +++
 
 Um fluxo de pensamentos rápidos, aprendizados e observações. O lado não-polido e sem filtros do meu pensamento.
