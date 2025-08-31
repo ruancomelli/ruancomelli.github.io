@@ -11,12 +11,9 @@ theme = "tabi"
 
 build_search_index = true
 
-# TODO: add RSS feed
-# generate_feeds = true
-# feed_filenames = ["atom.xml"]
+generate_feeds = true
 taxonomies = [
-    { name = "authors", feed = false, paginate_by = 5 },
-    { name = "tags", feed = false, paginate_by = 5 },
+    { name = "tags", feed = true, paginate_by = 5 },
 ]
 
 compile_sass = true
@@ -29,12 +26,9 @@ default_language = "en"
 title = "/home/ruancomelli"
 description = "Website pessoal de Ruan Comelli"
 build_search_index = true
-# TODO: add RSS feed
-# generate_feeds = true
-# feed_filenames = ["atom.xml"]
+generate_feeds = true
 taxonomies = [
-    { name = "authors", feed = false, paginate_by = 5 },
-    { name = "tags", feed = false, paginate_by = 5 },
+    { name = "tags", feed = true, paginate_by = 5 },
 ]
 
 [markdown]
@@ -121,8 +115,7 @@ socials = [
     { name = "spotify", url = "https://open.spotify.com/user/ruancomelli", icon = "spotify" },
     { name = "linkedin", url = "https://www.linkedin.com/in/ruancomelli/", icon = "linkedin" },
 ]
-# TODO: add RSS feed icon
-# feed_icon = true
+feed_icon = true
 footer_menu = [
     # { url = "about", name = "about", trailing_slash = true },
     # { url = "privacy", name = "privacy", trailing_slash = true },
