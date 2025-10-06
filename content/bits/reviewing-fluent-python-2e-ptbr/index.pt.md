@@ -4,10 +4,7 @@ date = 2025-01-15
 description = "Descoberta rápida sobre a flexibilidade dos shortcodes do Zola"
 
 [taxonomies]
-tags = ["zola", "web-dev", "til"]
-
-[extra]
-kind = "TIL"
+tags = ["bits", "zola", "web-dev", "til"]
 +++
 
 Estava lutando para passar dados complexos para shortcodes, até descobrir que posso fazer:
