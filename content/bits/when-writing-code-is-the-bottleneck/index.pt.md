@@ -4,7 +4,7 @@ date = 2025-10-08
 description = "Hoje percebi como agentes de código podem ser úteis quando escrever código _é_ o gargalo"
 
 [taxonomies]
-tags = ["bits", "trabalho-remoto", "desenvolvimento", "ia", "llm", "agente-de-codigo", "desabafo"]
+tags = ["Bits", "Trabalho Remoto", "Desenvolvimento de Software", "IA", "LLM", "Agentes de Código"]
 +++
 
 Com um novo agente de código de IA sendo anunciado quase todo dia, devemos nos lembrar de que [escrever código nunca foi o gargalo](https://ordep.dev/posts/writing-code-was-never-the-bottleneck)...

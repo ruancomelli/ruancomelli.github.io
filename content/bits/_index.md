@@ -6,7 +6,6 @@ insert_anchor_links = "left"
 
 [extra]
 generate_feed = true
-show_reading_time = false
 # social_media_card = "bits.jpg"
 +++
 

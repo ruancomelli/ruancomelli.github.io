@@ -5,7 +5,7 @@ updated = 2025-08-29
 description = "My first post: a post about the blog."
 
 [taxonomies]
-tags = ["meta", "personal"]
+tags = ["Meta", "Personal"]
 
 [extra]
 quick_navigation_buttons = true

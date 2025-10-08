@@ -4,7 +4,7 @@ date = 2025-10-08
 description = "Today I realized how useful coding agents can be when writing code _is_ the bottleneck"
 
 [taxonomies]
-tags = ["bits", "remote-work", "development", "ai", "llm", "coding-agents"]
+tags = ["Bits", "Remote Work", "Software Development", "AI", "LLM", "Coding Agents"]
 +++
 
 With a new AI-powered coding agent being announced seemingly every other day, we must remind ourselves that [writing code was never the bottleneck](https://ordep.dev/posts/writing-code-was-never-the-bottleneck)...
