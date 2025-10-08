@@ -11,6 +11,10 @@ path = "/pt/about"
   </p>
 </div>
 
+<h1 style="text-align: center">
+🚧 Em Construção 🚧
+</h1>
+
 <div class="info-box" style="margin-top:0">
   <a href="/pt/about/resume" class="no-hover-padding" style="display:inline-block; border:1px solid var(--primary-color); background-color: var(--primary-color); color: var(--hover-color); padding: 0.55rem 1rem; border-radius: 999px; text-decoration:none; font-weight:600">Currículo ↗</a>
   <p style="margin-top:0.5rem; margin-bottom:0">Histórico acadêmico e profissional completo</p>

@@ -3,8 +3,8 @@ title = "Posts"
 
 [extra]
 header = {title = "Oi! Eu sou o Ruan,", img = "images/profile-hero.jpg", img_alt = "Ruan Comelli"}
-section_path = "blog/_index.pt.md"  # Where to find your posts.
-max_posts = 5  # Show 5 posts on the home page.
+section_path = "blog/_index.pt.md"
+max_posts = 5
 +++
 
 um engenheiro de software vivendo em [Florianópolis](https://en.wikipedia.org/wiki/Florian%C3%B3polis), Brasil.
