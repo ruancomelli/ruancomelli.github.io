@@ -12,14 +12,12 @@ show_reading_time = false
 
 **Quick thoughts, short posts - _bits_ of writing.**
 
-The unpolished, unfiltered side of my thinking. Here you'll find:
+The unpolished, unfiltered side of my thinking.
+Less structured but more frequent than [blog](../blog) posts, bits are my space to write freely, without polish or compromise.
+Here you'll find:
 
 - **TIL** (Today I Learned) moments
 - **Random thoughts**
 - **Quick discoveries**
-- **Questions** I'm asking myself (and sometimes my dogs)
+- **Questions** I'm asking myself (and sometimes my dogs) - feel free to answer them!
 - **Mini-logs** of things I've done
-
-Less structured but more frequent than [blog](../blog) posts, bits are my space to write freely, without polish or compromise.
-
-**Venture forth at your own risk.**
