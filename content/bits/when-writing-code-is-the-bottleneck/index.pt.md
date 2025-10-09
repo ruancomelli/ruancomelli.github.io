@@ -46,9 +46,9 @@ participant Code Server
 
 Se quiser, você também pode considerar que os navegadores web adicionam ainda mais latência - o fato é que toda essa configuração significa que caracteres que digito no meu teclado às vezes levam 2 segundos para aparecer na tela. Há também um atraso ao mover o mouse que me faz clicar frequentemente na coisa errada. E já mencionei que as nossas instâncias do WVD têm apenas 8GB de RAM, o que _definitivamente não é suficiente_ quando você está executando uma máquina Windows com uma conexão remota (eu), Teams e Edge abertos?
 
-Talvez eu só não seja tão habilidoso quanto você, caro leitor... mas toda essa limitação realmente prejudica minha produtividade. Tarefas simples de escrita de código se transformam em crises de frustração. Digitar código, inspecionar arquivos e até navegar na internet - tudo isso se tornou um pesadelo. De repente, _escrever código se tornou o gargalo_.
+Talvez eu só não seja tão habilidoso quanto você, caro leitor... mas toda essa limitação realmente prejudica minha produtividade. Tarefas simples de escrita de código se transformaram em tested de paciência. Digitar código, inspecionar arquivos e até navegar na internet - tudo isso se tornou um pesadelo. De repente, _escrever código se tornou o gargalo_.
 
-Mas, então, entram os agentes de código para salvar o dia.
+E foi aí que os agentes de código entraram para salvar o dia.
 
 ---
 
@@ -58,7 +58,7 @@ Os _code servers_ à nossa disposição vêm com [Cline](https://cline.bot/) pr�
 
 Enquanto o agente de código faz o trabalho pesado, posso focar na visão geral e em aspectos de mais alto nível. Eu penso sobre o problema (uma correção de bug ou a implementaão de uma nova _feature_), projeto a solução, e deixo o Cline lidar com os detalhes da implementação. Também ajuda que o Cline propõe mudanças gradativamente, um arquivo por vez. Isso me permite revisar e melhorar as alterações propostas sem ter que ficar alternando entre múltiplas janelas ou abas, o que é um grande avanço para mim.
 
-Nem tudo são flores, é claro. Agentes de código podem ser muito teimosos, e frequentemente cometem erros que requerem intervenção manual. Além disso, eles não entendem as nuances do projeto ou da tarefa em questão a menos que eu forneça mais contexto ou orientação. Eu também tenho a sensação de que o código gerado por agentes de código é de qualidade mediana na melhor das hipóteses, necessitando diversos ajustes antes de eu me dar por satisfeito.
+Nem tudo são flores, é claro. Agentes de código podem ser muito teimosos, e frequentemente cometem erros que requerem intervenção manual. Eles não entendem as nuances do projeto ou da tarefa em questão a menos que eu forneça mais contexto ou orientação. Eu também tenho a sensação de que o código gerado por agentes de código é de qualidade mediana na melhor das hipóteses, necessitando diversos ajustes antes de eu me dar por satisfeito.
 
 ---
 
