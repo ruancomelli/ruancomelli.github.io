@@ -1,6 +1,6 @@
 # Configuration for the website
 
-base_url = "https://www.ruancomelli.com/"
+base_url = "https://www.ruancomelli.com"
 title = "/home/ruancomelli"
 description = "Ruan Comelli's personal website"
 author = "Ruan Comelli"
