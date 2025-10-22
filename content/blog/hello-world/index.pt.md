@@ -33,7 +33,7 @@ Dado o momento por que estamos passando, em que tanto conteúdo é obviamente ge
 
 ## Estrutura do site
 
-Este site foi construído com a ferramenta [Zola](https://www.getzola.org/), um gerador de sites estáticos, usando o tema [tabi](https://welpo.github.io/tabi/), e servido por meio do GitHub Pages. Em breve, pretendo escrever [um post com o passo-a-passo de como construí este site](../building-the-blog/).
+Este site foi construído com a ferramenta [Zola](https://www.getzola.org/), um gerador de sites estáticos, usando o tema [tabi](https://welpo.github.io/tabi/), e servido por meio do GitHub Pages. Em breve, pretendo escrever um post com o passo-a-passo de como construí este site.
 
 A estrutura do site é simples:
 
