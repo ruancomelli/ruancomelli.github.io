@@ -2,20 +2,59 @@
 title = "Sobre"
 template = "info-page.html"
 path = "/pt/about"
+
+[extra]
+quick_navigation_buttons = true
+# toc = true
+# social_media_card = "social_cards/blog_comments.jpg"
 +++
+
+<a href="/pt/about/resume" style="text-decoration: none; color: inherit; display: block;">
+{{ admonition(type="info", title="Currículo", text="📄 Clique para ver meu perfil profissional completo.") }}
+</a>
 
 <div class="intro" style="display:flex; gap:1.25rem; align-items:center; margin:0 0 1.25rem 0; flex-wrap:wrap;">
   <img src="/images/profile-picture.jpg" alt="Ruan Comelli" width="256" height="256" style="object-fit:cover; flex:0 0 auto; border-radius: 10px;" />
   <p style="font-size: 1.1em; line-height: 1.5; margin:0; flex:1 1 280px;">
-    Eu sou o <strong>Ruan</strong>, um engenheiro de software que adora programar e construir ferramentas para facilitar e alegrar a vida das pessoas.
+    Eu sou o <strong>Ruan</strong>, um engenheiro de software que adora programar e construir ferramentas para facilitar a vida das pessoas.
   </p>
 </div>
 
-<h1 style="text-align: center">
-🚧 Em Construção 🚧
-</h1>
+Nasci e ainda moro na bela cidade de [Florianópolis](https://www.wikiwand.com/pt/Florian%C3%B3polis), no sul do Brasil. Aqui, divido minha casa com meus dois chihuahuas ~loucos~ adoráveis, Jack e Bonnie, que orgulhosamente acreditam ser uma ameaça à sociedade.
 
-<div class="info-box" style="margin-top:0">
-  <a href="/pt/about/resume" class="no-hover-padding" style="display:inline-block; border:1px solid var(--primary-color); background-color: var(--primary-color); color: var(--hover-color); padding: 0.55rem 1rem; border-radius: 999px; text-decoration:none; font-weight:600">Currículo ↗</a>
-  <p style="margin-top:0.5rem; margin-bottom:0">Histórico acadêmico e profissional completo</p>
-</div>
+Este é meu site pessoal, onde compartilho meus pensamentos, projetos e experiências.
+
+<!--
+
+Intro: Sou brasileiro, morando em Florianópolis, SC, Brasil.
+
+Fiz minha graduação e mestrado em Engenharia Mecânica na Universidade Federal de Santa Catarina (UFSC).
+
+Minha paixão por desenvolvimento de software começou na faculdade, quando estava cursando Engenharia Mecânica. Tivemos duas disciplinas de Computação Científica, e fiquei viciado. Logo me juntei a um grupo de pesquisa focado em dinâmica dos fluidos computacional, trabalhando com a linguagem de programação C++ ~excessivamente complexa~ poderosa.
+
+Trabalho como engenheiro de software há 5 anos, principalmente na área de IA e ferramentas para desenvolvedores - Sourcery, Elint, Waivern e agora <redacted>?
+
+-->
+
+<!--
+### Resumo
+
+[1–3 frases concisas sobre quem você é e o que faz.]
+
+### Profissional
+
+- [Função atual e foco]
+- [Principais habilidades/tecnologias]
+- [1–2 conquistas notáveis]
+
+### Pessoal
+
+- [Interesses/hobbies]
+- [O que te motiva]
+
+### Contato
+
+- [Método de contato preferido]
+-->
+
+<!-- TODO: adicionar informações de contato -->

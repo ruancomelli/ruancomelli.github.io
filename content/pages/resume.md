@@ -4,7 +4,7 @@ template = "info-page.html"
 path = "/about/resume"
 +++
 
-Thank you for your interest in my résumé! In the [Full Version](#full-resume) section, you'll find a detailed overview of my professional experience, education, and skills. Alternatively, if you're looking for a more concise, single-page version, you can find it in the [Short Version](#short-resume) section.
+Thank you for your interest in my résumé! In the [Full Résumé](#full-resume) section, you'll find a detailed overview of my professional experience, education, and skills. Alternatively, if you're looking for a more concise, single-page version, you can find it in the [Short Résumé](#short-resume) section.
 
 Or you can pick a PDF version to download:
 
@@ -86,7 +86,7 @@ Ruan Cardoso Comelli • [LinkedIn](https://www.linkedin.com/in/ruancomelli) •
 **[Elint Tech](https://www.elint.io/en) • Dec 2020 - Nov 2021**
 
 - Led a team of 4 engineers in developing a proof-of-concept for automated PDF data extraction, successfully delivering a solution that was adopted by the client
-- Architected and implemented a custom OCR solution that outperformed state-of-the-art commercial tools, including Google Vision, by combining Tesseract with modern open-source models
+- Architected and implemented a custom OCR solution that outperformed popular commercial tools, including Google Vision, by combining Tesseract with modern open-source, state-of-the-art models
 - Designed and implemented serverless document processing pipelines using infrastructure-as-code on AWS
 
 ## Skills

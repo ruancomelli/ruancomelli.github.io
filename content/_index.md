@@ -21,7 +21,7 @@ Here I share thoughts, experiences, and insights about software development, tec
         Blog
     </h3>
     <p class="quick-link-description">
-        Thoughts, experiences, and insights about software development, technology, and life
+        Thoughts, experiences, and insights
     </p>
 </a>
 
