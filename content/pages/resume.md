@@ -99,7 +99,7 @@ Ruan Cardoso Comelli • [LinkedIn](https://www.linkedin.com/in/ruancomelli) •
 - **Architecture & Strategy:** Systems architecture, domain-driven design, modularization, API/service design, event-driven systems, product vision, prototyping & MVP development, user-centric design, metrics-driven decisions, emerging tech adoption, stakeholder collaboration
 - **Communication & Collaboration:** Clear verbal & written communication, async/sync collaboration, active listening, excellent mentor-level code reviews, user & dev documentation, meeting facilitation, cross-functional teamwork
 - **Mindset:** Critical thinking, adaptability, proactivity, continuous learning, positive attitude
-- **Open Source Projects:** Contributed to the [Rust compiler](https://github.com/rust-lang/rust/pull/141521). Created [Brag AI](https://www.ruancomelli.com/brag-ai/) (sill v0.X!), a CLI tool that turns Git commits into polished achievements using LLMs. Open-sourced Master's deep learning research in [Boiling Learning](https://github.com/ruancomelli/boiling-learning).
+- **Open Source Projects:** Contributed to the [Rust compiler](https://github.com/rust-lang/rust/pull/141521). Created [Brag AI](https://www.ruancomelli.com/brag-ai/) (still v0.X!), a CLI tool that turns Git commits into polished achievements using LLMs. Open-sourced Master's deep learning research in [Boiling Learning](https://github.com/ruancomelli/boiling-learning).
 - **Languages:** English (professional), Portuguese (native)
 
 ## Education
