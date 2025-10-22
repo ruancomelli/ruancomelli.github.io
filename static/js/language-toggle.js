@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
   contentDiv.className = "language-content";
 
   const switchLink = document.createElement("a");
-  switchLink.href = targetUrl;
+  switchLink.href = targetUrl + window.location.search + window.location.hash;
   switchLink.textContent = targetLangText;  // Already contains the full text in the target language
   switchLink.className = "language-switch-link";
 
