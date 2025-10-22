@@ -1,4 +1,4 @@
-language_name = "Português"  # Override to show proper language name in dropdown
+language_name = "Português"
 date_locale = "pt_BR"
 full_stop = "."  # Used at the end of a sentence.
 

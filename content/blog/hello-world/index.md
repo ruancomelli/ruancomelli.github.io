@@ -33,7 +33,7 @@ Given the moment we're going through, where so much content is obviously generat
 
 ## Site structure
 
-This site was built with [Zola](https://www.getzola.org/), a static site generator, using the [tabi](https://welpo.github.io/tabi/) theme, and served through GitHub Pages. I plan to write [a post with the step-by-step guide on how I built this site](../building-the-blog/) soon.
+This site was built with [Zola](https://www.getzola.org/), a static site generator, using the [tabi](https://welpo.github.io/tabi/) theme, and served through GitHub Pages. I plan to write a post with the step-by-step guide on how I built this site soon.
 
 The site structure is simple:
 

@@ -2,16 +2,16 @@
 title = "About"
 template = "info-page.html"
 path = "about"
+
+[extra]
+quick_navigation_buttons = true
+# toc = true
+# social_media_card = "social_cards/blog_comments.jpg"
 +++
 
-<div class="info-box" style="margin-top:0">
-  If you're looking for my full resume, it's available in a separate page:
-  <a href="resume" class="no-hover-padding" style="display:inline-block; border:1px solid var(--primary-color); background-color: var(--primary-color); color: var(--hover-color); padding: 0.55rem 1rem; border-radius: 999px; text-decoration:none; font-weight:600">View Resume ↗</a>
-</div>
-
-<h1 style="text-align: center">
-🚧 Under Construction 🚧
-</h1>
+<a href="/about/resume" style="text-decoration: none; color: inherit; display: block;">
+{{ admonition(type="info", title="Résumé", text="📄 Click to view my complete professional profile.") }}
+</a>
 
 <div class="intro" style="display:flex; gap:1.25rem; align-items:center; margin:0 0 1.25rem 0; flex-wrap:wrap;">
   <img src="/images/profile-picture.jpg" alt="Ruan Comelli" width="256" height="256" style="object-fit:cover; flex:0 0 auto; border-radius: 10px;" />
@@ -20,15 +20,17 @@ path = "about"
   </p>
 </div>
 
-I was born and still live in the beautiful city of [Florianópolis](https://www.wikiwand.com/en/articles/Florian%C3%B3polis), in the south of Brazil. Here, I live with my two ~bosses~ lovely chihuahuas, Jack and Bonnie, who truly believe they are menacing
+I was born and still live in the beautiful city of [Florianópolis](https://www.wikiwand.com/en/articles/Florian%C3%B3polis), in the south of Brazil. Here, I share my home with my two ~crazy~ lovely chihuahuas, Jack and Bonnie, who truly and proudly believe they are a menace to society.
 
-My passion for software development started in college, when I was pursuing a Bachelor's degree in Mechanical Engineering. We had two courses on Scientific Computing, and I was hooked. I soon joined a research group focused on computational fluid dynamics, working with the ~overly complex~ powerful C++ programming language.
+This is my personal website, where I share my thoughts, projects, and experiences.
 
 <!--
 
 Intro: I'm Brazilian, living in Florianópolis, SC, Brazil.
 
 I did my Bachelor's and Master's in Mechanical Engineering at the Federal University of Santa Catarina (UFSC).
+
+My passion for software development started in college, when I was pursuing a Bachelor's degree in Mechanical Engineering. We had two courses on Scientific Computing, and I was hooked. I soon joined a research group focused on computational fluid dynamics, working with the ~overly complex~ powerful C++ programming language.
 
 I have worked as a software engineer for the past 5 years, mostly in the AI and developer tools space - Sourcery, Elint, Waivern and now <redacted>?
 
@@ -54,7 +56,5 @@ I have worked as a software engineer for the past 5 years, mostly in the AI and 
 
 - [Preferred contact method]
 -->
-
-This is my personal website, where I share my thoughts, projects, and experiences.
 
 <!-- TODO: add contact info -->
