@@ -45,6 +45,16 @@ Here I share thoughts, experiences, and insights about software development, tec
     </p>
 </a>
 
+<a href="/now" class="quick-link-card">
+    <h3 class="quick-link-title">
+        <span class="quick-link-icon">🌱</span>
+        Now
+    </h3>
+    <p class="quick-link-description">
+        What I'm currently focused on
+    </p>
+</a>
+
 <a href="/about" class="quick-link-card">
     <h3 class="quick-link-title">
         <span class="quick-link-icon">👋</span>
