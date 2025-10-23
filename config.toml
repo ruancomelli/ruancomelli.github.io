@@ -84,6 +84,7 @@ show_remote_source = true
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/#navigation
 # ===============================
 menu = [
+    { name = "home", url = "/", trailing_slash = false },
     { name = "blog", url = "blog", trailing_slash = true },
     { name = "bits", url = "bits", trailing_slash = true },
     { name = "archive", url = "archive", trailing_slash = true },
