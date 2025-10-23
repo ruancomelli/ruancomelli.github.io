@@ -94,3 +94,9 @@ close_quotation_mark = "”"
 about_feeds = "Isto é um feed web, também conhecido como feed Atom. Inscreva-se copiando a URL da barra de endereços para o seu leitor de notícias. Acesse About Feeds para aprender mais e começar. É grátis."
 visit_the_site = "Acesse o site"
 recent_posts = "Publicações recentes"
+
+# Now page admonition.
+now_page_what_is_this = "O que é isso?"
+now_page_explanation = '''Esta é uma página <code>/now</code>, inspirada no movimento <a href="https://nownownow.com/about">NowNowNow</a>. O objetivo é compartilhar meu status atual, atividades e projetos.'''
+now_page_old_warning = "Esta é uma página now antiga"
+now_page_old_text = '''Esta página mostra o que eu estava focado no passado. Confira <a href="$URL">a página now mais recente</a> para ver no que estou trabalhando atualmente.'''

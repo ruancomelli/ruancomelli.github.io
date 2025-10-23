@@ -45,6 +45,16 @@ Aqui, eu compartilho pensamentos, experiências e ideias sobre desenvolvimento d
     </p>
 </a>
 
+<a href="/pt/now" class="quick-link-card">
+    <h3 class="quick-link-title">
+        <span class="quick-link-icon">🌱</span>
+        Now
+    </h3>
+    <p class="quick-link-description">
+        O que estou fazendo atualmente
+    </p>
+</a>
+
 <a href="/pt/about" class="quick-link-card">
     <h3 class="quick-link-title">
         <span class="quick-link-icon">👋</span>
