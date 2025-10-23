@@ -10,13 +10,3 @@ generate_feed = true
 +++
 
 **Pensamentos rápidos, posts curtos - pedacinhos de escrita.**
-
-O lado bruto e sem filtros do meu pensamento.
-Menos estruturados e mais frequentes que posts do [blog](../blog), meus bits são um espaço para escrever livremente, sem muito polimento ou comprometimento.
-Por aqui, você vai encontrar:
-
-- **Aprendizados**
-- **Pensamentos** aleatórios
-- **Descobertas** recentes
-- **Perguntas e dúvidas** - sinta-se livre para responder!
-- **Mini relatórios** de coisas que fiz

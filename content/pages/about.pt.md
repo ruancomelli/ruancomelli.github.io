@@ -22,8 +22,6 @@ quick_navigation_buttons = true
 
 Nasci e ainda moro na bela cidade de [Florianópolis](https://www.wikiwand.com/pt/Florian%C3%B3polis), no sul do Brasil. Aqui, divido minha casa com meus dois chihuahuas ~loucos~ adoráveis, Jack e Bonnie, que orgulhosamente acreditam ser uma ameaça à sociedade.
 
-Este é meu site pessoal, onde compartilho meus pensamentos, projetos e experiências.
-
 <!--
 
 Intro: Sou brasileiro, morando em Florianópolis, SC, Brasil.

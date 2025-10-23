@@ -22,8 +22,6 @@ quick_navigation_buttons = true
 
 I was born and still live in the beautiful city of [Florianópolis](https://www.wikiwand.com/en/articles/Florian%C3%B3polis), in the south of Brazil. Here, I share my home with my two ~crazy~ lovely chihuahuas, Jack and Bonnie, who truly and proudly believe they are a menace to society.
 
-This is my personal website, where I share my thoughts, projects, and experiences.
-
 <!--
 
 Intro: I'm Brazilian, living in Florianópolis, SC, Brazil.

@@ -46,7 +46,7 @@ The site structure is simple:
 
 Additionally, the site is bilingual (Portuguese and English), with each page having its corresponding version in the other language. With this, I intend to reach people worldwide, but also give special care to Brazilians (who don't always have the privilege of knowing English).
 
-I've also included light mode (for normal people) and dark mode (for tech folks) and a search function to find content throughout the entire site. At some point, I'll also include an Atom/RSS feed for those who want to follow my posts.
+I've also included light mode (for normal people) and dark mode (for tech folks) and a search function to find content throughout the entire site. There's also an [Atom/RSS feed](/atom.xml) available for those who want to follow my posts.
 
 To allow me to interact with you, dear reader, I've enabled integration with [Giscus](https://giscus.app/) on all my posts - this way, you can comment and react to my posts. Visitors are expected to react with ❤️ to keep the creative flame burning - thank you very much.
 

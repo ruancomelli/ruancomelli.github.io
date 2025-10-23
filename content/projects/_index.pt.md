@@ -8,9 +8,3 @@ insert_anchor_links = "left"
 show_reading_time = true
 quick_navigation_buttons = true
 +++
-
-<!-- TODO: write this up -->
-
-<h1 style="text-align: center">
-🚧 Em Construção 🚧
-</h1>

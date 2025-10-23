@@ -46,7 +46,7 @@ A estrutura do site é simples:
 
 Além disso, o site é bilíngue (português e inglês), com cada página tendo sua versão correspondente no outro idioma. Com isso, pretendo alcançar pessoas no mundo inteiro, mas também dar um carinho especial aos brasileiros (que nem sempre têm o privilégio de saber inglês).
 
-Eu incluí também os modos claro (dedicado a pessoas normais) e escuro (para o pessoal da tecnologia) e uma função de busca para encontrar conteúdo no site inteiro. Em algum momento, incluirei também um feed Atom/RSS para quem quiser acompanhar os meus posts.
+Eu incluí também os modos claro (dedicado a pessoas normais) e escuro (para o pessoal da tecnologia) e uma função de busca para encontrar conteúdo no site inteiro. Também tem um [feed Atom/RSS](/atom.xml) disponível para quem quiser acompanhar os meus posts.
 
 Para me permitir interagir com você, caro leitor, eu ativei a integração com o [Giscus](https://giscus.app/) em todos os meus posts - dessa forma, você pode comentar e reagir aos meus posts. Espera-se que visitantes reajam com ❤️ para manter a chama criativa acesa - muito obrigado.
 
