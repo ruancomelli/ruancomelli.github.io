@@ -1,6 +1,7 @@
 +++
 title = "Coding agents when writing code is the bottleneck"
 date = 2025-10-08
+updated = 2025-10-24
 description = "Today I realized how useful coding agents can be when writing code _is_ the bottleneck"
 
 [taxonomies]
@@ -17,29 +18,31 @@ With a new AI-powered coding agent being announced seemingly every other day, we
 
 Working as a contractor means dealing with company policies that weren't designed for my dev setup - or my peace of mind. Not being formally employed incentivizes clients to be more careful when sharing confidential information or intellectual property.
 
-I am currently working for a company that doesn't allow code, messages or any other form of intellectual property to be stored on contractor's machines. Instead, we are required to connect remotely to Windows Virtual Desktop (WVD)[^1] instances even if all we want is to send a message on Microsoft Teams[^2]. And, of course, there's no native client for connecting to WVDs on Ubuntu (my OS) - so I need to use a web client. So far, this interaction can be represented by the following [Mermaid diagram](https://mermaid.js.org/):
+I am currently working for a company that doesn't allow code, messages or any other form of intellectual property to be stored on contractor's machines. Instead, we are required to connect remotely to Windows Virtual Desktop (WVD)<sup>(I'm _so happy_ to be back on Windows)</sup> instances even if all we want is to send a message on Microsoft Teams<sup>(The _best_ communication app for teams)</sup>. And, of course, there's no native client for connecting to WVDs on Ubuntu (my OS) - so I need to use a web client. So far, this interaction can be represented by the following [Mermaid diagram](https://mermaid.js.org/):
 
 {% mermaid() %}
 sequenceDiagram
-    participant My Machine
-    participant WVD
+participant My Machine
+participant WVD
 
     My Machine<<->>WVD: latency
     Note over My Machine,WVD: via a web browser
+
 {% end %}
 
-You would think that that is already painful enough, right? Wrong. On top of this, all software development is done on Azure DevOps code servers accessed via Microsoft Edge[^3] - so the road from my laptop to the code I want to write now looks like this:
+You would think that that is already painful enough, right? Wrong. On top of this, all software development is done on Azure DevOps code servers accessed via Microsoft Edge<sup>(Microsoft's recommended browser - probably because it's _the best one_ out there)</sup> - so the road from my laptop to the code I want to write now looks like this:
 
 {% mermaid() %}
 sequenceDiagram
-    participant My Machine
-    participant WVD
-    participant Code Server
+participant My Machine
+participant WVD
+participant Code Server
 
     My Machine<<->>WVD: latency
     WVD<<->>Code Server: more latency
     Note over My Machine,WVD: via my web browser
     Note over WVD,Code Server: via Edge
+
 {% end %}
 
 If you want, you can also consider that the web browsers in the middle include additional latency. The fact is that this whole setup means that characters I type on my keyboard sometimes take 2 seconds to appear on the screen. There's also a delay when moving the mouse that causes me to frequently click on the wrong thing. Oh, and have I mentioned that the WVD instances we're running only have 8GB of RAM - _definitely not enough_ when you're running a Windows machine listening to a remote connection (i.e. me) with Teams and Edge open?
@@ -65,11 +68,3 @@ It's not all roses, of course. Coding agents can be very stubborn, and often mak
 I'm not here to advocate for coding agents and LLMs in general. These tools must be used responsibly and are not suitable for all tasks.
 
 The article [Writing Code Was Never The Bottleneck](https://ordep.dev/posts/writing-code-was-never-the-bottleneck) is right on point, and I highly recommend reading it. It was just funny that I found myself in a situation where, yes, _writing code was the bottleneck_ - and that an AI coding agent became my savior.
-
----
-
-### Footnotes
-
-[^1]: I'm _so happy_ to be back on Windows
-[^2]: The _best_ communication app for teams
-[^3]: Microsoft's recommended browser - probably because it's _the best one_ out there
