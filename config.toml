@@ -45,8 +45,9 @@ skip_prefixes = [
 ]
 
 [extra]
-use_cdn = true
+show_selected_language_code_in_language_switcher = true
 
+use_cdn = true
 comment = true
 iine = true
 
