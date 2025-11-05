@@ -4,8 +4,26 @@ template = "info-page.html"
 path = "/about/resume"
 +++
 
-Thank you for your interest in my résumé! In the [Full Résumé](#full-resume) section, you'll find a detailed overview of my professional experience, education, and skills. Alternatively, if you're looking for a more concise, single-page version, you can find it in the [Short Résumé](#short-resume) section.
+Thank you for your interest in my résumé! In the [Full Résumé](#full-resume) section, you'll find a detailed overview of my professional experience, education, and skills, written in a free-form and narrative style. Alternatively, if you're looking for a more concise, single-page version, you can find it in the [Short Résumé](#short-resume) section.
 
+Or you can download a PDF version:
+
+<div class="quick-links-grid">
+
+<a href="/pdfs/resume/en.pdf" class="quick-link-card">
+    <h3 class="quick-link-title">
+        <span class="quick-link-icon">📄</span>
+        Résumé PDF (English)
+    </h3>
+    <p class="quick-link-description">
+        Professional experience and skills
+    </p>
+</a>
+
+</div>
+
+
+<!-- 
 Or you can pick a PDF version to download:
 
 <div class="quick-links-grid">
@@ -30,7 +48,7 @@ Or you can pick a PDF version to download:
     </p>
 </a>
 
-</div>
+</div> -->
 
 ---
 

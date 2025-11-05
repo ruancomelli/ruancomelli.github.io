@@ -4,9 +4,25 @@ template = "info-page.html"
 path = "/pt/about/resume"
 +++
 
-Obrigado pelo interesse no meu currículo! Na seção [Currículo Completo](#curriculo-completo), você encontrará uma visão detalhada da minha experiência profissional, educação e habilidades. Alternativamente, se você está procurando uma versão mais concisa, de uma página, pode encontrá-la na seção [Currículo Resumido](#curriculo-resumido).
+Obrigado pelo interesse no meu currículo! Na seção [Currículo Completo](#curriculo-completo), você encontrará uma visão detalhada da minha experiência profissional, educação e habilidades, escrita de forma livre e narrativa. Alternativamente, se você está procurando uma versão mais concisa, de uma página, pode encontrá-la na seção [Currículo Resumido](#curriculo-resumido).
 
-Ou você pode escolher uma versão em PDF para baixar (em inglês):
+Ou você pode baixar uma versão em PDF (em inglês):
+
+<div class="quick-links-grid">
+
+<a href="/pdfs/resume/en.pdf" class="quick-link-card">
+    <h3 class="quick-link-title">
+        <span class="quick-link-icon">📄</span>
+        Currículo PDF (Inglês)
+    </h3>
+    <p class="quick-link-description">
+        Experiência profissional e habilidades
+    </p>
+</a>
+
+</div>
+
+<!-- Ou você pode escolher uma versão em PDF para baixar (em inglês):
 
 <div class="quick-links-grid">
 
@@ -30,7 +46,7 @@ Ou você pode escolher uma versão em PDF para baixar (em inglês):
     </p>
 </a>
 
-</div>
+</div> -->
 
 ---
 
