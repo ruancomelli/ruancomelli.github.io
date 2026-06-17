@@ -1,0 +1,8 @@
+{%- set empty = empty | default(value=false) -%}
+<div class="now-section-card{% if empty %} empty-section{% endif %}">
+<h2 id="{{ anchor_id }}">
+<a class="header-anchor no-hover-padding" href="#{{ anchor_id }}" aria-label="Anchor link for: {{ anchor_id }}"><span class="link-icon" aria-hidden="true"></span></a>
+<span class="section-icon">{{ icon }}</span>{{ title }}
+</h2>
+{{ body | markdown | safe }}
+</div>

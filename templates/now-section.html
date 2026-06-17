@@ -29,10 +29,11 @@ available #} {%- if latest_page -%} {# Add the now page explanation admonition
 </div>
 
 {# Display the date of the latest now page #}
-<h2 class="now-page-date-header">
+<h2 class="now-page-date-header" id="{{ latest_page.date }}">
+  <a class="header-anchor no-hover-padding" href="#{{ latest_page.date }}" aria-label="Anchor link for: {{ latest_page.date }}"><span class="link-icon" aria-hidden="true"></span></a>
   <time datetime="{{ latest_page.date }}">
     {{ macros_format_date::format_date(date=latest_page.date, short=false,
-    language_strings=language_strings) }}
+     language_strings=language_strings) }}
   </time>
 </h2>
 

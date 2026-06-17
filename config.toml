@@ -33,10 +33,10 @@ taxonomies = [
 
 [markdown]
 bottom_footnotes = true
-highlight_code = true
-highlight_theme = "dracula"
-# extra_syntaxes_and_themes = []
 external_links_class = "external"
+
+[markdown.highlighting]
+theme = "dracula"
 
 [link_checker]
 skip_prefixes = [
